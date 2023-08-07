@@ -1,0 +1,29 @@
+[33mcommit 9a0f6dca2afd2ac8b3ff03e58c1de190704754dc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Ffans <diegoescobar.estudios@gmail.com>
+Date:   Sun Jul 2 21:24:23 2023 -0600
+
+    Se añadió el sistema de sesiones en la mayoría de paginas y se empezó a realizar el sistema de historial
+
+[33mcommit 2683886043eb19651248c551d4d6d6d259bcb140[m
+Author: Ffans <diegoescobar.estudios@gmail.com>
+Date:   Sun Jul 2 18:44:07 2023 -0600
+
+    Se añadió el registro de estudiantes, la visualización de los mismos y los botones de editar y eliminar
+
+[33mcommit 6e77604e2ef4f04e74bf131414bce63bd6be8405[m
+Author: Ffans <diegoescobar.estudios@gmail.com>
+Date:   Fri Jun 30 22:17:15 2023 -0600
+
+    personilización del login
+
+[33mcommit 6ce0431c14768be5b70abcc8cfc273eb52ccf5b7[m
+Author: Ffans <diegoescobar.estudios@gmail.com>
+Date:   Fri Jun 30 20:42:19 2023 -0600
+
+    Modificando  y añadiendo detalles
+
+[33mcommit 8908cc7ec00e7135685c63e0c0ea3fea3f197552[m
+Author: Ffans <diegoescobar.estudios@gmail.com>
+Date:   Fri Jun 30 18:14:01 2023 -0600
+
+    Añadiendo plantilla base para login
