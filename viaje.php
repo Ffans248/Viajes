@@ -3,6 +3,7 @@ session_start();
 // error_reporting(0);
 $varsession = $_SESSION['usuario'];
 $sessionID = $_SESSION['id'];
+$id =$_GET['id'];
 if ($varsession == null || $varsession == '') {
     header("Location:index.php");
     die();
@@ -38,13 +39,18 @@ if ($varsession == null || $varsession == '') {
     <form action="nuevoviaje.php"  method="POST">
     <div style="margin: 15px;">
     <div class="mb-3" >
+    <div class="mb-3">
+                <label for="Clave" class="form-label">Clave</label>
+                <input type="text" class="form-control" name="clave" placeholder="ID" value="<?php echo $id;?>"
+                    readonly>
+            </div>
         <label for="PNombre" class="form-label">Origen:</label>
         <input type="text" class="form-control" name="Origen" placeholder="Origen" required>
     </div>
     
     <div class="mb-3" >
         <label for="PApellido" class="form-label">Destino:</label>
-        <input type="text" class="form-control" name="Origen" placeholder="Destino" required>
+        <input type="text" class="form-control" name="Destino" placeholder="Destino" required>
     </div>
 
     <div class="mb-3" >
@@ -53,11 +59,11 @@ if ($varsession == null || $varsession == '') {
     </div>
     <div class="mb-3" >
         <label for="PApellido" class="form-label">Fecha de Salida:</label>
-        <input type="text" class="form-control" name="FSalida"  required>
+        <input type="date" class="form-control" name="FSalida"  required>
     </div>
     <div class="mb-3" >
         <label for="PApellido" class="form-label">Fecha de Entrada:</label>
-        <input type="text" class="form-control" name="FEntrada"  required>
+        <input type="date" class="form-control" name="FEntrada"  required>
     </div>
 
     
