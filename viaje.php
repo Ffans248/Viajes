@@ -35,29 +35,29 @@ if ($varsession == null || $varsession == '') {
         </ul>
     </div>
    <div class="mb-3 text-center"><h1>Registrar viajeros</h1></div> 
-    <form action="nuevoalumno.php"  method="POST">
+    <form action="nuevoviaje.php"  method="POST">
     <div style="margin: 15px;">
     <div class="mb-3" >
         <label for="PNombre" class="form-label">Origen:</label>
-        <input type="text" class="form-control" name="Nombre" placeholder="Nombre" required>
+        <input type="text" class="form-control" name="Origen" placeholder="Origen" required>
     </div>
     
     <div class="mb-3" >
         <label for="PApellido" class="form-label">Destino:</label>
-        <input type="text" class="form-control" name="Apellido" placeholder="Apellido" required>
+        <input type="text" class="form-control" name="Origen" placeholder="Destino" required>
     </div>
 
     <div class="mb-3" >
-        <label for="Correo" class="form-label">:</label>
-        <input type="number" class="form-control" name="tel" placeholder="Telefono" required>
+        <label for="Correo" class="form-label">motivo:</label>
+        <input type="text" class="form-control" name="Motivo" placeholder="Motivo" required>
     </div>
     <div class="mb-3" >
-        <label for="PApellido" class="form-label">Nacionalidad:</label>
-        <input type="text" class="form-control" name="Nacionalidad" placeholder="Nacionalidad" required>
+        <label for="PApellido" class="form-label">Fecha de Salida:</label>
+        <input type="text" class="form-control" name="FSalida"  required>
     </div>
     <div class="mb-3" >
-        <label for="PApellido" class="form-label">Correo:</label>
-        <input type="email" class="form-control" name="Correo" placeholder="Correo" required>
+        <label for="PApellido" class="form-label">Fecha de Entrada:</label>
+        <input type="text" class="form-control" name="FEntrada"  required>
     </div>
 
     

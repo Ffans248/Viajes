@@ -14,10 +14,11 @@ if (!empty($_POST["log"])) {
         $sql=$conn->query("select * from administracion where usuario='$usuario' and pass='$pass'");
         if ($datos=$sql->fetch_object()) {  
             $_SESSION['usuario']=$usuario;
-            $_SESSION['id']=$datos->id;?>
-            <meta http-equiv="Refresh" content="0; url='registrar.php'" />
-        <!--("Location:registrar.php") exit(); -->
-          <?php
+            $_SESSION['id']=$datos->id;
+            
+        header("Location:registrar.php");
+         
+          
         } else {
             echo '<div class="text-danger">El usuario no existe</div>'; 
         }
